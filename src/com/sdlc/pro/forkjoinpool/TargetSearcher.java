@@ -5,7 +5,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-class TargetSearcher extends RecursiveTask<Integer> {
+public class TargetSearcher extends RecursiveTask<Integer> {
     private final int[] array;
     private final int target;
     private final int start;
