@@ -2,7 +2,7 @@ package com.sdlc.pro.forkjoinpool;
 
 import java.util.concurrent.*;
 
-class BlockingOperation extends RecursiveAction implements ForkJoinPool.ManagedBlocker {
+public class BlockingOperation extends RecursiveAction implements ForkJoinPool.ManagedBlocker {
     private final String name;
     private volatile boolean flag = false;
 
